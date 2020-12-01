@@ -75,8 +75,8 @@ exports.getVerifyEmail = (req, res, next) => {
   var transporter = nodemailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "nocodenolife2527@gmail.com",
-      pass: "password2527@"
+      user: "lamnn.coder@gmail.com",
+      pass: "lamAa1234@"
     }
   });
   Users.findOne({ username: req.user.username }).then(user => {
@@ -160,8 +160,8 @@ exports.postForgotPass = (req, res, next) => {
       var transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-          user: "nocodenolife2527@gmail.com",
-          pass: "password2527@"
+          user: "lamnn.coder@gmail.com",
+          pass: "lamAa1234@"
         }
       });
       var tpass = randomstring.generate({
